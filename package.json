@@ -1,1 +1,33 @@
-/*asd
+{
+    "name": "tienda-virtual",
+    "version": "1.0.0",
+    "description": "Proyecto Tienda Virtual",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "directories": {
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Dgrmastah/ProjectBreak2.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Dgrmastah/ProjectBreak2/issues"
+    },
+    "homepage": "https://github.com/Dgrmastah/ProjectBreak2#readme",
+    "dependencies": {
+        "bcrypt": "^5.1.1",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^8.12.1"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.9"
+    }
+}
